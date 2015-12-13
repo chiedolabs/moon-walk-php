@@ -18,7 +18,7 @@ function hello() {
   </div>
 </div>
 EOT;
- }
+}
 ```
 
 With moonwalk:
@@ -37,5 +37,5 @@ function hello() {
     </div>
   EOT;
   $x = moonWalk($x);
- }
+}
 ```
