@@ -11,7 +11,7 @@ function moonWalk($x, $leadingSpaces = 0) {
     $lines[$x] = preg_replace('/\s/', "", $lines[$x], $spacesToRemove);
   }
   // Put back into string on seperate lines
-  $x = implode("\r\n", $lines);
+  $x = implode("\n", $lines);
 
   return $x;
 }
