@@ -1,3 +1,5 @@
+Deprecation notice: This repo is no longer maintained.
+
 ## MoonWalkPHP
 
 Removes trailing indentation in HEREDOC strings and other strings with multiple lines.
